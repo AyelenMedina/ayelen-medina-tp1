@@ -1,0 +1,17 @@
+/* CSS DOCUMENT */
+@charset "utf-8";
+
+@font-face {
+  font-family: "SairaCondensed-Bold";
+  src: url(fuentes/SairaCondensed-Bold.ttf) format(truetype);
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "SairaCondensed-Bold", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
