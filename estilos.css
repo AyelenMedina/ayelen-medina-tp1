@@ -2,16 +2,101 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: "SairaCondensed-Bold";
-  src: url(fuentes/SairaCondensed-Bold.ttf) format(truetype);
+  font-family: "anton-regurar";
+  src: url(fuentes/Anton-Regular.ttf) format(truetype);
   font-weight: bold;
   font-style: normal;
 }
 
+@font-face {
+  font-family: "fira-sans-condensed-light";
+  src: url(fuentes/FiraSansCondensed-Light.ttf) format(truetype);
+  font-weight: lighter;
+  font-style: normal;
+}
+
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 120px;
+  display: flex;
+}
+
+#fotoynombre {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
 h1 {
-  font-family: "SairaCondensed-Bold", sans-serif;
+  font-family: "anton-regurar", sans-serif;
+  font-size: 6rem;
+  line-height: 1rem;
+  color: #e88484;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h3 {
+  font-family: "anton-regurar", sans-serif;
+  font-size: 2rem;
+  color: #e88484;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-family: "fira-sans-condensed-light", sans-serif;
+  font-size: 1rem;
+  text-wrap: balance;
+  color: rgb(255, 255, 255);
+  line-height: 1.5rem;
+  width: 40rem;
+}
+
+#tarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+p {
+  font-family: "fira-sans-condensed-light", sans-serif;
+  font-size: 12px;
+  color: rgb(255, 255, 250);
 }
 
 ul {
   list-style: none;
+  text-wrap: balance;
+  color: rgb(255, 238, 0);
+  line-height: 0.5rem;
+  padding: 0%;
+}
+
+footer {
+  background-color: #313131;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h6 {
+  font-family: "anton-regurar", sans-serif;
+  font-size: 1rem;
+  color: #e88484;
+  margin: 7px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 280px;
 }
