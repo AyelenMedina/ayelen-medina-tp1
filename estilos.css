@@ -3,21 +3,23 @@
 
 @font-face {
   font-family: "anton-regular";
-  src: url(fuentes/anton-regular.ttf) format("truetype");
+  src: url(fuentes/anton-regular.ttf) format(truetype);
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "fira-sans-condensed-light";
-  src: url(fuentes/fira-sans-condensed-light.ttf) format("truetype");
+  src: url(fuentes/fira-sans-condensed-light.ttf) format(truetype);
   font-weight: lighter;
   font-style: normal;
 }
 
 @font-face {
   font-family: "social-media-circled";
-  src: url(fuentes/social-media-circled.ttf) format("truetype");
+  src: url(fuentes/social-media-circled.ttf) format(truetype);
+  font-weight: bold;
+  font-style: normal;
 }
 
 * {
